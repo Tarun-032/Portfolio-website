@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio/TarunBehera</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2030a1b74c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       
+        <nav>
+            <h2 class="logo">Tarun</h2>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills1">Skill</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                
+
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        
+        <div class="container">
+           
+            
+            <div class="headertext">
+               <p> Hey Everyone I am </p>
+               <h1> <span>Tarun Behera</span></h1>
+               <p>A Computer Science student</p>
+            </div>
+            <div class="earth">
+                <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+
+    <model-viewer src="animate_earth.glb" camera-controls auto-rotate disable-zoom></model-viewer>
+            </div>
+            
+        </div>
+        
+          </div>
+        
+    </div>
+    <!--------ABout------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img src="Tarun.jpg">
+                </div>
+                <div class="col2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>I love learning and exploring new things. Challenges excite me, and I always strive to do my best. I am an enthusiastic learner, constantly seeking opportunities to improve and grow. Learning is my passion, and I embrace challenges with enthusiasm and a determination to succeed.
+
+
+
+
+
+                    </p>
+
+                    <div class="tabtitles">
+                        <p class="tablinks activelink" onclick="opentab('skills')"> Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">  Education</p> 
+                         
+                    </div>
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li> <span> Web Development</span><br> Designing web pages (HTML,CSS, Javasacript)</li> <br>
+                            <li> <span> Video Editing</span><br>Premeire pro and After Effects</li><br>
+                            <li> <span>Photography</span><br>Worked with various DSLR and Lenses</li>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li> <span> Job Experience</span><br>No prior job experience</li> <br>
+                            <li> <span> College Committee</span><br>Media team member in CSIPCE</li> <br>
+                        </ul>
+                    </div>
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li> <span> Pillai College of Engineering</span><br>Btech Computer Science</li> <br>
+                            <li> <span> New Horizon School</span><br>Higher secondary</li><br>
+                            <li> <span>DAV Public School</span><br>Schooling </li>
+                        </ul>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!---------------SKILLS---------------->
+
+    <div id="skills1">
+        <div class="conatiner">
+            <h1 class="subtitle">My Skills</h1>
+            <div class="skilllist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web development</h2>
+                    <p>I am skilled in HTML, CSS, and JavaScript, and I am committed to continuous improvement in these areas. I strive to stay updated with the latest advancements in web development and consistently enhance my abilities.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-laptop-code"></i>
+                    <h2> Familiar languages</h2>
+                    <p> I am familiar with C and C++ programming languages and practice daily to improve. I am also enthusiastic about learning new languages to expand my programming skills.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-camera"></i>
+                    <h2> Video/Photo Editing</h2>
+                    <p>  I am proficient in video editing and photography. I utilize software like Adobe Premiere Pro, After Effects, and Lightroom to create visually compelling content. My expertise in these tools allows me to bring ideas to life and deliver impactful visuals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------Projects----------------->
+
+    <div id="project">
+        <div class="container">
+             <h1 class="subtitle">Projects</h1>
+             <div class="projectlist">
+                <div class="work">
+                         <img src="2713210.jpg">
+                         <div class="layer">
+                            <h3> Flappy Bird </h3>
+                            <p>A 2D game made using python </p>
+                            <a href="https://github.com/Tarun-032/Flappy-Bird-game-"><i class="fa-solid fa-link"></i></a>
+                         </div>
+                </div>
+                <div class="work">
+                         <img src="pxfuel.jpg">
+                         <div class="layer">
+                            <h3> Resort managemnet </h3>
+                            <p>A website designed for a resort with complete database and neccesary details with every details neccesary</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                         </div>
+                </div>
+                 <div class="work">
+                         <img src="2713202.jpg">
+                         <div class="layer">
+                            <h3> PCOS and menstrual cycle prediction using machine learning </h3>
+                            <p>A website integrate with machine learning which help calculating cycle length and chances of having PCOS </p>
+                            <a href="https://github.com/Tarun-032/Menstrual-cycle-and-pcos-prediction"><i class="fa-solid fa-link"></i></a>
+                         </div>
+                 </div>
+                
+                
+             </div>
+             <a href="https://github.com/Tarun-032" class="btn">See more</a>
+            
+        </div>
+
+    </div>
+
+    <!--------------COntact----------------->
+    
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>tarunbehera032@gmai.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9653113529</p>
+                    <p class="x"> Feel free to reachout to me on the socials given below </p>
+                    <div class="socialicons">
+                        <a href="https://www.instagram.com/_tarun_032"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Tarun-032"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/tarun-behera-780704279/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contactright">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input typr="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>©Tarun Behera|All Rights Reserved</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tablinks");
+        var tabcontents = document.getElementsByClassName("tabcontents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("activelink");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("activetab");
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+    </script>
+
+    <script>
+        var sidemenu =document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwuj8OidFDxOSqFsa8N4ELmrIt-RB2cMn75weoyAmfuIhHCxbb0bCoLMcdGBcepvFtY/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+    
+</body>
+</html>
